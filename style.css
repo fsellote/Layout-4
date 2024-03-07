@@ -1,0 +1,78 @@
+body > * {border: 2px solid black;
+    margin: 3px;
+
+}
+
+header {
+    color: rgb(50, 166, 50);
+    font-size: larger;
+    font-family: 'Helvetica';
+    text-align: center;
+    padding: 3%
+    ;
+
+}
+
+nav {
+    color: rgb(50, 166, 50);
+    font-size: larger;
+    font-family: 'Helvetica';
+    text-align: center;
+    padding-right: 1%;
+}
+
+.main {
+    color: rgb(50, 166, 50);
+    font-size: larger;
+    font-family: 'Helvetica';
+    display: inline-block;
+    width: 24vh;
+    text-align: center;
+    padding: 20%;
+
+
+}
+
+.pic {
+    color: rgb(50, 166, 50);
+    font-size: larger;
+    font-family: 'Helvetica';
+    position: relative; left:1vh; top:-20vh;
+    display: inline;
+    width: 12vh;
+    text-align: center;
+    padding-right: 12%;
+    padding-bottom: 20%;
+}
+
+.aboutme {
+    color: rgb(50, 166, 50);
+    font-size: larger;
+    font-family: 'Helvetica';
+    display: inline-block;
+    width: 24vh;
+    text-align: center;
+    padding: 10.72%;
+}
+
+.tweets {
+    color: rgb(50, 166, 50);
+    font-size: larger;
+    font-family: 'Helvetica';
+    display: inline-block;
+    width: 24vh;
+    text-align: center;
+    padding: 10.72%;
+}
+
+footer{
+    color: rgb(50, 166, 50);
+    font-size: larger;
+    font-family: 'Helvetica';
+    text-align: center;
+    padding: 2%;
+}
+
+.Layout4 {
+    border: none;
+}
