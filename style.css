@@ -18,7 +18,7 @@ nav {
     font-size: larger;
     font-family: 'Helvetica';
     text-align: center;
-    padding-right: 1%;
+    padding: 1%;
 }
 
 .main {
@@ -37,12 +37,12 @@ nav {
     color: rgb(50, 166, 50);
     font-size: larger;
     font-family: 'Helvetica';
-    position: relative; left:1vh; top:-20vh;
-    display: inline;
-    width: 12vh;
+    display: inline-block;
+    width: 10%;
     text-align: center;
-    padding-right: 12%;
-    padding-bottom: 20%;
+    margin-left: 12%;
+    padding-left: 24px;
+  
 }
 
 .aboutme {
