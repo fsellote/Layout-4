@@ -1,66 +1,82 @@
-* {
-    border: 2px solid black;
-    text-align: center;
-    font-family: Helvetica;
-    font-size: 20px;
-    color: rgb(17, 111, 17);
+*{
+    color: green;
+}
+header, nav, main, aside, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-family: fantasy;
+
 }
 
 header {
-    padding: 60px;
+    height: 100px;
+    border-top: 2px solid black;
+    border-bottom: 0;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-color: green;
 }
 
 nav {
-    padding: 20px;
+   height: 50px;
+   border: 3px solid black;
+   border-color: green;
 }
 
-main{
-    padding: 27vh;
+main {
+    padding: 26vh;
     width: 30%;
-    height: 60px;
+    height: 40px;
+    border-top: 0;
+    border-left: 2px solid black;
+    border-right: 3px solid black;
+    border-color: green;
 }
 
+aside:first-child {
+    width: 160px;
+    height: 200px;
+    position: absolute;
+    top: 175px;
+    left: 850px;
+    border: 3px solid black;
+    border-color: rgb(0, 21, 248);
+
+}
+
+aside:nth-child(2) {
+    width: 410px;
+    height: 200px;
+    position: absolute;
+    top: 175px;
+    left: 1040px;
+    border: 3px solid black;
+    border-color: rgb(245, 171, 0);
+}
+
+aside:nth-child(3) {
+    width: 600px;
+    height: 180px;
+    position: absolute;
+    top: 395px;
+    left: 850px;
+    border: 3px solid black;
+    border-color: rgb(255, 0, 21);
+}
+.border{
+    border: 1px solid black;
+    border-top: 0;
+    border-right: 3px solid black;
+    border-color: green;
+   
+}
 footer{
-    padding: 20px;
-}
-
-aside:first-child{
-    width: 10%;
-    height: 140px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 34%;
-    left: 57%;
-}
-
-
-aside:nth-child(2){
-    width: 28.5%;
-    height: 140px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 34%;
-    left: 69%;
-}
-
-
-aside:nth-child(3){
-    width: 610px;
-    height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position:absolute;
-    top: 57%;
-    left: 57%;
-}
-
-section{border: 0;}
-
-.Layout4 {
-    border: none;
+    height: 50px;
+    border-top: 2px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-color: green;
 }
